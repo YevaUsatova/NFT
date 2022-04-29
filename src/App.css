@@ -14,18 +14,41 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #427df5;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(255, 255, 255);
+}
+
+.mainPic {
+  background: url(https://cdn.mos.cms.futurecdn.net/fEiiAFCszqW8THGArcpAG4.jpg) ;
+  width: 100%;
+  min-height: 100%;
+  position: fixed;
+  background-size: cover;
+}
+#secondPic {
+  background: url(https://lh3.googleusercontent.com/kxnbiix07z7pfv_ng0T6q4_Bm1knFZPSu3fN8e8nfyLs9MwSCaI_CwDwH1jOKlf_mjp0Yj2nfbg-oIVveB8Ia9E_eZSgTyWLKWcDi4dRHdQYlcxm_3jgszCg5ml-hbCsinuZrJXHP7U=w2400);
+  width: 100%;
+  min-height: 100%;
+  position: fixed;
+  background-size: cover;
 }
 
 .App-link {
   color: #61dafb;
+}
+h1{
+   color: white;
+  text-align: center;
+  
+}
+#text {
+  color: white;
 }
 
 @keyframes App-logo-spin {
