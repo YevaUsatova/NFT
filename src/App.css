@@ -23,9 +23,35 @@
   font-size: calc(10px + 2vmin);
   color: rgb(255, 255, 255);
 }
-
+#link{
+  color:rgb(97, 55, 4);
+  font-weight: bold;
+}
+#portf{
+  margin-top: 3%;
+  font-family: "Brush Script MT";
+  color:rgb(158, 101, 28)
+}
+#linkdin{
+  height: 25px;
+  width: auto;
+}
+#myC{
+  background: url(https://665501.smushcdn.com/1045537/wp-content/uploads/2015/05/sunset_flash2_wm.png?lossy=0&strip=1&webp=1) ;
+  width: 100%;
+  min-height: 100%;
+  position: fixed;
+  background-size: cover;
+}
+#myP{
+  background: url(https://ewscripps.brightspotcdn.com/dims4/default/8e328fe/2147483647/strip/true/crop/1280x720+0+0/resize/1280x720!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F92%2F45%2Fb45ed1ee42cbb50d3fe66e9261dd%2Fsunset-at-the-great-salt-lake.jpg) ;
+  width: 100%;
+  min-height: 100%;
+  position: fixed;
+  background-size: cover;
+}
 .mainPic {
-  background: url(https://cdn.mos.cms.futurecdn.net/fEiiAFCszqW8THGArcpAG4.jpg) ;
+  background: url(https://nypost.com/wp-content/uploads/sites/2/2021/12/astrology-saturn-return-moons-1-copy.jpg?quality=75&strip=all&w=1116) ;
   width: 100%;
   min-height: 100%;
   position: fixed;
@@ -38,17 +64,48 @@
   position: fixed;
   background-size: cover;
 }
+#styleX{
+  margin-left: 1%;
+}
+#style{
+  margin-left: 5%;
+  color: bisque;
+}
+.text {
+  font-family: Tahoma, Verdana, sans-serif;  
+  text-align: left;
+}
+.box {
+  display: grid;
+  width: 540px;
+  grid-template-columns: 120px 120px 120px;
+  align-items: start;
+  justify-content: space-between;
+  font-weight: bold;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(71, 42, 6);
+}
 
+.box :first-child {
+    align-self: left;
+}
+#textM {
+  color: rgb(148, 108, 14);
+  text-align: left;
+  font-weight: bold;
+}
 .App-link {
-  color: #61dafb;
+  color: #9fb3b8;
 }
 h1{
-   color: white;
+  font-weight: bold;
+  color: white;
   text-align: center;
   
 }
+
 #text {
-  color: white;
+  color: rgb(246, 240, 233);
 }
 
 @keyframes App-logo-spin {

@@ -3,7 +3,7 @@ import {NavLink} from "react-router-dom";
 
 export default function NavBar (){
     return(
-    <nav className="blue">
+    <nav className="brown">
     <div className="nav-wrapper" >
       <a href="/" className="brand-logo center" ><i className= " material-icons">face</i></a>
       <ul id="nav-mobile" className="left hide-on-med-and-down">
