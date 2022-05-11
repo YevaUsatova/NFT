@@ -7,8 +7,10 @@ import About from './About';
 import Gallery from './Gallery';
 import Projects from './Projects';
 
+
 function App() {
   return (
+    
     <div className="App">
     <Router>
       
